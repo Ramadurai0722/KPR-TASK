@@ -1,0 +1,21 @@
+ 
+.horScroll{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.horScroll h2{
+    background-color: rgb(57, 126, 195);
+    color: white;
+    line-height: 50px; 
+    padding: 5px; 
+}
+.scroll-wrapper{ 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: rgb(220, 234, 129);
+}
+.scroll-wrapper::-webkit-scrollbar{
+    display: none;
+} 
